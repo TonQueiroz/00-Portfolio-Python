@@ -1,0 +1,159 @@
+@charset "utf8";
+
+/* ESTILOS */
+
+/*VARIAVEIS */
+
+/* cORES
+
+#732229
+#D9042B
+#9EA4A5
+#2D2E2F
+#3F3A36
+*/
+
+
+:root {
+    --cor0: #2D2E2F;
+    --cor1: #9EA4A5;
+    --cor2: #732229;
+    --cor3: #7F1B1D;
+    --cor4: 
+    --cor5: 
+
+
+    --fonte0: arial, verdana, helvetica, sans-serif;
+    --fonte1: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    --fonte3: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --fonte4: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+/* ESTILOS GERAIS */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(179, 177, 177);
+    }
+
+
+
+img{
+    width: 100%;
+    display: block;
+}
+
+body {
+    
+    background-size:  cover ;
+    color: var(--cor1);
+
+    background-image: url(../Imagens/xshjp5p9ega71.png);
+    background-size: cover;
+    
+
+    height: 100%;
+}
+.BACK2{
+    background-color: #000000d2;
+}
+
+/* HEADER E NAV */
+
+header{
+    background-color:var(--cor0);
+    padding: 20px 0px ;
+}
+
+header h1{
+    color: var(--cor1);
+    text-align: CENTER;
+    font-size: 2EM;
+}
+
+nav {
+    background-color: var(--cor2);
+}
+
+nav div.navegação ul{
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+    margin: auto;
+    background-color: rgba(82, 9, 9, 0.438);
+}
+
+nav div.navegação ul li{
+    padding: 5px 10px;
+    
+    font-size: .8EM;
+    
+}
+
+nav div.navegação ul li:hover{
+    background-color: var(--cor1);
+
+    
+}
+
+nav div.navegação ul li A:hover{
+ color: var(--cor3);
+}
+
+
+
+/*MAIN*/
+
+main{
+    
+    
+}
+
+MAIN SECTION{
+    width: 90%;
+    
+    margin:  3% AUTO;
+
+    box-shadow: 0PX 0PX 15PX #73222975 ;
+    
+
+    
+}
+
+MAIN SECTION H2{
+    background-color:var(--cor1);
+    color: #000000;
+    text-align: CENTER;
+    padding: 5PX;
+}
+
+MAIN SECTION P{
+    background-color: rgb(52, 71, 71);
+    text-align: CENTER;
+    padding: 5PX;
+
+    background-color:var(--cor1);
+    color: #000000;
+}
+
+/* CONTEÚDO*/
+
+/*FOOTTER*/
+
+FOOTER{
+    background-color: rgba(150, 1, 1, 0.616) ;
+    text-align: CENTER;
+    font-size: .8EM;
+
+    
+
