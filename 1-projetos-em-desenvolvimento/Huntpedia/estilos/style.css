@@ -19,7 +19,7 @@
     --cor1: #9EA4A5;
     --cor2: #732229;
     --cor3: #7F1B1D;
-    --cor4: 
+    --cor4: #5e181b;
     --cor5: 
 
 
@@ -65,12 +65,13 @@ body {
 }
 .BACK2{
     background-color: #000000d2;
+    height: 100VH;
 }
 
 /* HEADER E NAV */
 
 header{
-    background-color:var(--cor0);
+    background-color:#000000e0;
     padding: 20px 0px ;
 }
 
@@ -81,7 +82,7 @@ header h1{
 }
 
 nav {
-    background-color: var(--cor2);
+    background-color: var(--cor4);
 }
 
 nav div.navegação ul{
@@ -90,34 +91,30 @@ nav div.navegação ul{
 
     width: 100%;
     margin: auto;
-    background-color: rgba(82, 9, 9, 0.438);
 }
 
-nav div.navegação ul li{
-    padding: 5px 10px;
+nav div.navegação ul li{    
     
     font-size: .8EM;
+    padding: 5px 10px
     
 }
 
 nav div.navegação ul li:hover{
     background-color: var(--cor1);
+    
 
     
 }
 
 nav div.navegação ul li A:hover{
- color: var(--cor3);
+    color: var(--cor3);
 }
 
 
 
 /*MAIN*/
 
-main{
-    
-    
-}
 
 MAIN SECTION{
     width: 90%;
@@ -151,9 +148,10 @@ MAIN SECTION P{
 /*FOOTTER*/
 
 FOOTER{
-    background-color: rgba(150, 1, 1, 0.616) ;
+    background-color: var(--cor4) ;
     text-align: CENTER;
     font-size: .8EM;
 
     
 
+}
